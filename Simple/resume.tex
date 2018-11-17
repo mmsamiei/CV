@@ -1,7 +1,7 @@
 \documentclass[11pt,a4paper,sans]{moderncv}
 
 \moderncvstyle{classic}
-\moderncvcolor{black}
+\moderncvcolor{blue}
 
 \usepackage[scale=0.75]{geometry}
 \usepackage{graphicx, txfonts}
@@ -14,6 +14,8 @@
 \firstname{Mohammad Mahdi}
 \familyname{Samiei Paqaleh}
 
+\photo[64pt][0.4pt]{photo}
+
 \title{Curriculum Vitae}
 \begin{document}
 
@@ -24,61 +26,89 @@
 %=========================%
 \section {Contact Info}
 
-\cvitem{Email}{ mmsamiei@aut.ac.ir}
-\cvitem{Email}{ mohmahsamiei@aut.ac.ir}
+\cvitem{Email}{ mohmahsamiei@gmail.com}
+
 
 \cvitem{Mobile}{+989394887595}
 \cvitem{Github}{\href{https://github.com/mmsamiei}{github.com/mmsamiei}}
 \cvitem{StackOverflow}{\href{https://stackoverflow.com/users/4714161/mmsamiei}{https://stackoverflow.com/users/4714161/mmsamiei}}
+\cvitem{Telegram}{\href{https://t.me/mmsamiei}{https://t.me/mmsamiei}}
 
 \section{Research Interests}
-\cvlistitem{Data mining}
-\cvlistitem{Machine learning}
-\cvlistitem{Information retrieval}
+\cvlistitem{Machine Learning}
+\cvlistitem{Natural Language Processing}
+\cvlistitem{Information Retrieval}
+\cvlistitem{Information Extraction}
+
+
+
+%=========================%
+%=======Education=======%
+%=========================%
+
 \section{Education}
 
-\cventry{2014--2018 (Expected)}{Undergraduate, Computer Software Engineering}
+\cventry{2018--2020 (Expected)}{Master Science of Artificial Intelligence}
+{ Sharif University of Technology}{ Tehran}{ Iran}{
+}
+
+\cventry{2014--2018}{Bachelor Science of Computer Software Engineering}
 { Amirkabir University of Technology}{ Tehran}{ Iran}{
     \begin{itemize}
-        \item Current GPA 18.02 / 20 (124 / 140 credits) \\
+        \item  GPA 18.11 / 20  \\
     \end{itemize}
 }
 
-\cventry{2010--2014}{Diploma of mathematics and physics}{Allame Helli 4 High School (SAMPAD)}{Tehran}{Iran}{
+\cventry{2010--2014}{Diploma of mathematics and physics}{Allame helli 4 high school (SAMPAD)}{Tehran}{Iran}{
     \begin{itemize}
         \item GPA 19.29 / 20 \\
     \end{itemize}
 }
 
 
+
+%=========================%
+%=========BS Project==========%
+%=========================%
+\section{BS Project}
+\cvline{title}{\emph{Design and implementation a system for searching relevant question using crawl-
+ing on Persian community qeustion answering websites}}
+\cvline{supervisor}{Dr. Seyed Rasoul Mousavi}
+\subsection*{key Points}
+\cvlistitem{Design and implementation crawlers to crawl periodically without visiting repeti-
+tious links}
+\cvlistitem{Implementation crawlers to crawl dynamic web pages (pages that use JS to show their contents and can't be crawled by common scraping tools)}
+\cvlistitem{Implementation Okapi BM25 ranking function to find similar questions and sort
+them in order of their proximity to a given question}
+\cvlistitem{
+    Implementation an inverted index to increase speed of system and decrease its
+response time
+}
+
+\closesection{}
 %=========================%
 %=========Honors==========%
 %=========================%
 \section{Honors}
-\cvitem{2014}{Ranked Top 0.3\% In The Country-wide University Entrance Exam, In More Than 220'000 Participants}
-\cvitem{2017}{Selected as a member of National Scientific Olympiad in Computer Engineering team of AmirKabir University of Technology as a result of outstanding performance, Tehran, Iran, 2017.}
-\cvitem{2018}{Ranked 18th In National Master Of Artificial Intelligence University Entrance Exam}
+\cvitem{2014}{Ranked top 0.3\% in the country-wide university entrance exam, in more than 220'000 participants}
+\cvitem{2017}{Selected as a member of national scientific olympiad in Computer Engineering team of amirKabir university of technology as a result of outstanding performance, Tehran, Iran, 2017.}
+\cvitem{2018}{Ranked 18th in national master of artificial intelligence university entrance exam}
 
-\section{Work Experience}
+\section{Work experience}
 \cvitem{Summer 2017}{Internship at Adanic company, Tehran, Iran; data scientist, working on personal finance management (PFM) of Ayandeh Bank data }
 
 \section{Projects - Mostly Available on github.com/mmsamiei}
 
-\cvitem{2014}{ Implementation Snake Game For DOS Systems. \textbf{C} $\to$
-    \href{https://github.com/mmsamiei/Snake-Game}{link}}
-
-\cvitem{2014}{ Implementation Tetris Game For DOS Systems. \textbf{C} $\to$
-    \href{https://github.com/mmsamiei/Tetris-Game}{link}}
-
-\cvitem{2014}{ Implementation Paint Programm For DOS Systems. \textbf{C} $\to$
-    \href{https://github.com/mmsamiei/Paint}{link}}
-
-\cvitem{2014}{ Implementation English And Persian Editor For DOS Systems \textbf{C} $\to$
+\cvitem{2014}{ Implementation English and Persian editor for DOS systems \textbf{C} $\to$
     \href{https://github.com/mmsamiei/English-And-Persian-Editor}{link}}
+
+\cvitem{2015}{ Implementation of a 2d strategic game with multi-player support}
 
 \cvitem{2015}{Implementation of a simple guessing game, this was also executed
     on AlteraDE2 borad - \textbf{Verilog HDL} $\to$
     \href{https://github.com/tabrizian/GuessNumber}{link}}
+
+\cvitem{2016}{ Design and Implementation of a healthcare database system}
 
 \cvitem{2016}{Implementation of a compiler \textbf{lex, yacc, C} $\to$
     \href{https://github.com/Tabrizian/CompilerCompiler}{link}}
@@ -86,21 +116,24 @@
 \cvitem{2017}{Implementation of an agent for Pacman Capture Flag contest of university of berkeley \textbf{Python} $\to$
     \href{https://github.com/mmsamiei/PacmanCaptureFlag}{link}}
 
-\cvitem{2017}{Implementation of a personal secretary Telegram Bot \textbf{Python} $\to$
-    \href{https://web.telegram.org/\#/im?p=@SocratesTalkBot}{link}}
-
-\cvitem{2017}{Implementation of a ProxyServer with FTP connection \textbf{Python} $\to$
+\cvitem{2017}{Implementation of a proxy server with FTP connection \textbf{Python} $\to$
     \href{https://github.com/mmsamiei/QaemProxyServer}{link}}
 
-\cvitem{2018}{Implementation Frontend and Backend Of A Movie Database Website For Internet Engineering Course Final Project $\to$
+\cvitem{2018}{Implementation frontend and backend of a movie database website for Internet Engineering course final project $\to$
     \href{https://github.com/mmsamiei/WP_F17_HW5}{link}}
+
+\cvitem{2018}{Implementation of a novel approach in link prediction in bi partite graphs $\to$
+    \href{https://github.com/mmsamiei/Complex-Network-Final-Project}{link}}    
+
+\cvitem{2018}{Design and implementation a system for searching relevant question using crawling on Persian community qeustion answering websites (BS-Project) $\to$
+    \href{https://github.com/mmsamiei/BS-Project}{link}}
 
 
 
 \section{Skills and Expertise}
     \cventry{$\bullet$}{General Software Programming}{}{}{}{C, Java, Python}
     \cventry{$\bullet$}{General Web Programming}{}{}{}{HTML, JS, CSS, PHP}
-    \cventry{$\bullet$}{Web App Development Frameworks}{}{}{}{Vue, Laravel}
+    \cventry{$\bullet$}{Web App Development Frameworks}{}{}{}{Vue, Laravel, Flask}
     \cventry{$\bullet$}{Hardware Design Languages}{}{}{}{Verilog, VHDL}
 
     \cventry{$\bullet$}{Type Setting}{}{}{}{VIM, \LaTeX, LibreOffice, Microsoft Word, Sublime Text, VS Code}
@@ -111,41 +144,34 @@
 
     \cventry{$\bullet$}{Operating Systems}{}{}{}{Microsoft Windows, Linux (Ubuntu)}
 
-    \cventry{$\bullet$}{IDE}{}{}{}{Eclipse, Android Studio, Pycharm}
-    \cventry{$\bullet$}{Data Mining and Machine Learning Tools}{}{}{}{Rapid Miner, Weka, TensorFlow}
+    \cventry{$\bullet$}{IDE}{}{}{}{Eclipse, Android Studio, Pycharm, Visual Studio}
+    \cventry{$\bullet$}{Data Mining and Machine Learning Tools}{}{}{}{Rapid Miner, Weka}
 
     \cventry{$\bullet$}{Commandline tools}{}{}{}{}
 
 
-\section{ Undergraduate courses}
+\section{ Important courses}
     \cventry{$\bullet$}{Introduction to Programming}{}{}{}{19 / 20}
     \cventry{$\bullet$}{Advanced Programming with Java}{}{}{}{18 / 20}
     \cventry{$\bullet$}{Data structures and algorithms}{}{}{}{20 / 20}
-    \cventry{$\bullet$}{Digital systems design}{}{}{}{16.6 / 20}
-    \cventry{$\bullet$}{Electrical circuits}{}{}{}{17 / 20}
     \cventry{$\bullet$}{Technical English}{}{}{}{18 / 20}
     \cventry{$\bullet$}{Engineering Statistics}{}{}{}{20 /20}
     \cventry{$\bullet$}{Algorithm Design}{}{}{}{20 / 20}
     \cventry{$\bullet$}{Principles of database design}{}{}{}{19.96 / 20}
-	\cventry{$\bullet$}{Computer Architecture}{}{}{}{19.95 / 20}
     \cventry{$\bullet$}{Theory of machines and languages}{}{}{}{19 / 20}
 	\cventry{$\bullet$}{Research \& Technical Presentation}{}{}{}{17.4 / 20}
 	\cventry{$\bullet$}{Artificial Intelligence}{}{}{}{19.25 / 20}
 	\cventry{$\bullet$}{Principles of Compiler Design}{}{}{}{18.1 / 20}
 	\cventry{$\bullet$}{System Analysis \& Desig}{}{}{}{18 / 20}
 	\cventry{$\bullet$}{Operating Sys. Design (I)}{}{}{}{19.6 / 20}
-	\cventry{$\bullet$}{Computer Aided Digital System Design}{}{}{}{19.75 / 20}
 	\cventry{$\bullet$}{Computer Networks (I)}{}{}{}{16.75 / 20}
 	\cventry{$\bullet$}{Foundations of Data Mining}{}{}{}{18.3 / 20}
-    \cventry{$\bullet$}{Microprocessor \& Assembly Language}{}{}{}{17.88 / 20}
-	\cventry{$\bullet$}{Information \& Communication Security}{}{}{}{16.7 / 20}
     \cventry{$\bullet$}{Internet Engineering}{}{}{}{18.75 / 20}
 	\cventry{$\bullet$}{Design of Programming Language}{}{}{}{18 / 20}
-    \cventry{$\bullet$}{Computer Graphics}{}{}{}{20 / 20}
-    \cventry{$\bullet$}{Multimedia Systems}{}{}{}{Current term}
-    \cventry{$\bullet$}{Software Eng}{}{}{}{Current term}
-    \cventry{$\bullet$}{Theory of Computation}{}{}{}{Current term}
-    \cventry{$\bullet$}{Special Topics (Algorithms for Complex Networks)}{}{}{}{Current term}
+    \cventry{$\bullet$}{Multimedia Systems}{}{}{}{19 / 20}
+    \cventry{$\bullet$}{Software Eng}{}{}{}{18 / 20}
+    \cventry{$\bullet$}{Theory of Computation}{}{}{}{20 / 20}
+    \cventry{$\bullet$}{Special Topics (Algorithms for Complex Networks)}{}{}{}{17.1 / 20}
 
 
 \section{ Languages}
