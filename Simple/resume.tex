@@ -1,7 +1,7 @@
 \documentclass[11pt,a4paper,sans]{moderncv}
 
 \moderncvstyle{casual}
-\moderncvcolor{green}
+\moderncvcolor{blue}
 
 \usepackage[scale=0.75]{geometry}
 \usepackage{graphicx, txfonts}
@@ -26,21 +26,24 @@
 %=========================%
 \section {Contact Info}
 
-\cvitem{Email}{ mohmahsamiei@gmail.com}
-
-
-\cvitem{Mobile}{+989394887595}
-\cvitem{Github}{\href{https://github.com/mmsamiei}{github.com/mmsamiei}}
-\cvitem{StackOverflow}{\href{https://stackoverflow.com/users/4714161/mmsamiei}{https://stackoverflow.com/users/4714161/mmsamiei}}
-\cvitem{Telegram}{\href{https://t.me/mmsamiei}{https://t.me/mmsamiei}}
+\begin{multicols}{2} 
+    \cvitem{Email}{ mohmahsamiei@gmail.com}
+	\cvitem{Github}{\href{https://github.com/mmsamiei}{github.com/mmsamiei}}
+    \columnbreak
+    \cvitem{Mobile}{+989394887595}
+	\cvitem{Telegram}{\href{https://t.me/mmsamiei}{https://t.me/mmsamiei}}
+\end{multicols}
 
 \section{Research Interests}
-\cvlistitem{Machine Learning}
-\cvlistitem{Natural Language Processing}
-\cvlistitem{Information Retrieval}
-\cvlistitem{Data Mining}
 
 
+\begin{multicols}{2} 
+    \cvlistitem{Deep Learning}
+	\cvlistitem{Natural Language Processing}
+    \columnbreak
+    \cvlistitem{Machine Learning}
+	\cvlistitem{Data Mining}
+\end{multicols}
 
 %=========================%
 %=======Education=======%
@@ -105,13 +108,9 @@ response time
 \cvitem{2014}{ Implementation English and Persian editor for DOS systems \textbf{C} $\to$
     \href{https://github.com/mmsamiei/English-And-Persian-Editor}{link}}
 
-\cvitem{2015}{ Implementation of a 2d strategic game with multi-player support}
-
 \cvitem{2015}{Implementation of a simple guessing game, this was also executed
     on AlteraDE2 borad - \textbf{Verilog HDL} $\to$
     \href{https://github.com/tabrizian/GuessNumber}{link}}
-
-\cvitem{2016}{ Design and Implementation of a healthcare database system}
 
 \cvitem{2016}{Implementation of a compiler \textbf{lex, yacc, C} $\to$
     \href{https://github.com/Tabrizian/CompilerCompiler}{link}}
@@ -131,37 +130,34 @@ response time
 \cvitem{2018}{Design and implementation a system for searching relevant question using crawling on Persian community qeustion answering websites (BS-Project) $\to$
     \href{https://github.com/mmsamiei/BS-Project}{link}}
     
+\cvitem{2019}{Design and implementation a neural model for converting Image-to-Markup (Deep learning course final project) $\to$
+    \href{https://github.com/mmsamiei/img2latex}{link}}
+    
 
 \section{Skills and Expertise}
-    \cventry{$\bullet$}{General Software Programming}{}{}{}{C, Java, Python}
+
+\begin{multicols}{2} 
+	\cventry{$\bullet$}{General Software Programming}{}{}{}{C, Java, Python}
     \cventry{$\bullet$}{General Web Programming}{}{}{}{HTML, JS, CSS, PHP}
     \cventry{$\bullet$}{Web App Development Frameworks}{}{}{}{Vue, Laravel}
-    \cventry{$\bullet$}{Hardware Design Languages}{}{}{}{Verilog, VHDL}
-
-    \cventry{$\bullet$}{Type Setting}{}{}{}{VIM, \LaTeX, LibreOffice, Microsoft Word, Sublime Text, VS Code}
-
-    \cventry{$\bullet$}{Hardware Simulators}{}{}{}{ModelSim, Xilinx Vivado}
-
-    \cventry{$\bullet$}{DBMS}{}{}{}{MySQL, SQLite, SQL Server, Mongodb}
-
+    \columnbreak
+	\cventry{$\bullet$}{DBMS}{}{}{}{MySQL, SQLite, SQL Server, Mongodb}
     \cventry{$\bullet$}{Operating Systems}{}{}{}{Microsoft Windows, Linux (Ubuntu)}
-
-    \cventry{$\bullet$}{IDE}{}{}{}{Eclipse, Android Studio, Pycharm, Visual Studio}
-    \cventry{$\bullet$}{Data Mining and Machine Learning Tools And Libraries}{}{}{}{Rapid Miner, Weka, Scikit-Learn, Keras}
-
-    \cventry{$\bullet$}{Commandline tools}{}{}{}{}
+    \cventry{$\bullet$}{Data Mining and Machine Learning Tools}{}{}{}{Weka, Scikit-Learn, Tensorflow, Pytorch}
+\end{multicols}
+    \cventry{$\bullet$}{Others}{}{}{}{Git, \LaTeX}
 
 
 \section{Important courses}
   \begin{multicols}{2} 
-    \cventry{$\bullet$}{Introduction to Programming}{19}{}{}{}
     \cventry{$\bullet$}{Data structures and algorithms}{20}{}{}{}
     \cventry{$\bullet$}{Algorithm Design}{20}{}{}{}
     \cventry{$\bullet$}{Artificial Intelligence}{19.25}{}{}{}
-    \cventry{$\bullet$}{Operating Sys. Design (I)}{19.6}{}{}{}
     \cventry{$\bullet$}{Internet Engineering}{18.75}{}{}{}
     \cventry{$\bullet$}{Algorithms for Complex Networks}{17.1}{}{}{}
     \cventry{$\bullet$}{Natural Language Processing}{17.8}{}{}{}
+    \cventry{$\bullet$}{Machine Learning}{18.1}{}{}{}
+    \cventry{$\bullet$}{Deep Learning}{Current term}{}{}{}	
     \columnbreak
     \cventry{$\bullet$}{Advanced Programming with Java}{18}{}{}{}
     \cventry{$\bullet$}{Engineering Statistics}{20}{}{}{}
@@ -169,7 +165,7 @@ response time
     \cventry{$\bullet$}{System Analysis \& Desig}{18}{}{}{}
     \cventry{$\bullet$}{Foundations of Data Mining}{18.3}{}{}{}
     \cventry{$\bullet$}{Software Eng}{18}{}{}{}
-    \cventry{$\bullet$}{Machine Learning}{18.1}{}{}{}
+    \cventry{$\bullet$}{Algorithmic Game Theory}{Current term}{}{}{}
   \end{multicols}
 
 
